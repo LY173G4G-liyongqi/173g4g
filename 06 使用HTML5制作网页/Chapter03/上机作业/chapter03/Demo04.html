@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>字体</title>
+		<style>
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			.container{
+				width: 600px;
+				margin: 50px auto;
+			}
+			h2{
+				font-size: 16px;
+				margin-top: 30px;
+				color: #096;
+			}
+			p{
+				margin-top: 10px;
+			}
+			.fonts{
+				font-size: 80px;
+				font-family: SingleMaltaRegular;
+			}
+			@font-face{
+				font-family: SingleMaltaRegular;
+				src: url('fonts/shimesone_personal-webfont.eot');
+				src: url('fonts/shimesone_personal-webfont.eot?#iefix')format('embedded-opentype'),
+				url('fonts/shimesone_personal-webfont.woff')format{'woff'};
+				url('fonts/shimesone_personal-webfont.ttf')format('truetype'),
+				url('fonts/shimesone_personal-webfont.svg#SingleMaltaRegular')format('svg');
+				font-weight:normal;
+				font-style: normal;
+			}
+		</style>
+	</head>
+	<body>
+		<!--父容器-->
+		<div class="container">
+			<p class="fonts">this is a long time</p>
+			</div>
+	</body>
+</html>
